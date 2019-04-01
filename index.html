@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>typewriter</title>
+    <style>
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: .15em solid blue;;
+  white-space: nowrap;
+  letter-spacing: .15em;
+  animation: 
+    typing 3.0s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: blue; }
+}</style>
+
+</head>
+<body>
+    <div class="typewriter">
+        <h1>eduarda gama.</h1>
+      </div>
+</body>
+</html>
